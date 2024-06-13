@@ -1,9 +1,8 @@
 {
-  "name": "@rweich/streamdeck-ts-template",
+  "name": @sebb3/slack-plugin",
   "version": "0.0.0-development",
-  "description": "a template to create streamdeck plugins in typescript",
   "private": true,
-  "author": "rweich",
+  "author": "sebb3",
   "license": "MIT",
   "scripts": {
     "build": "yarn clean && webpack --mode=development",
@@ -55,8 +54,8 @@
   "engines": {
     "node": ">=14.17"
   },
-  "repository": "rweich/streamdeck-ts-template",
-  "bugs": "https://github.com/rweich/streamdeck-ts-template/issues",
+  "repository": "sebb3/slack-plugin",
+
   "commitlint": {
     "extends": [
       "@commitlint/config-conventional"
